@@ -1,4 +1,6 @@
 const minar = document.getElementById("button");
+
+
 mostrar = () => {
   document.getElementById("btn").innerHTML = btn;
   document.getElementById("info-minero").innerHTML =
@@ -75,3 +77,4 @@ minaManual.addEventListener("click", (e) => {
     alert("no tienes suficientes bitcoins para comprar esto");
   }
 });
+

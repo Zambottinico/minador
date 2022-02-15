@@ -1,41 +1,37 @@
-body{
-    background-color: rgb(34, 34, 34);
-    color: cornsilk;
-    text-align: center;
-    font-size: 22px;
+body {
+  background-color: rgb(20, 20, 20);
+  color: cornsilk;
+  text-align: center;
+  font-size: 22px;
 }
 
-#button{
-    color: white;
-    background-color: rgb(107, 1, 68);
-    border-style: none;
-    font-size: 2em;
-    text-align: center;
-    padding-left : 6%;
-    padding-right: 6%;
+#button {
+  color: white;
+  background-color: rgb(107, 1, 68);
+  border-style: none;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
-#button:hover{
-background-color: rgb(163, 29, 114);
-cursor: pointer;
-
+#button:hover {
+  background-color: rgb(163, 29, 114);
+  cursor: pointer;
 }
 
-#button:active{
-    
-    background-color: rgb(224, 75, 169);
+#button:active {
+  background-color: rgb(224, 75, 169);
 }
 
-
-.comprar{
-    border-style: none;
-    background: rgb(163, 29, 114);;
-    color: white;
-    margin-left: 5px;
-    font-size: 1em;
-
+.comprar {
+  border-style: none;
+  background: rgb(163, 29, 114);
+  color: white;
+  margin-left: 5px;
+  font-size: 1em;
 }
-.comprar:hover{
-    background:rgb(224, 75, 169) ;
-
+.comprar:hover {
+  background: rgb(224, 75, 169);
+  cursor: pointer;
 }
