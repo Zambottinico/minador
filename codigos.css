@@ -3,6 +3,7 @@ body {
   color: cornsilk;
   text-align: center;
   font-size: 22px;
+  align-items: center;
 }
 
 #button {
@@ -34,4 +35,21 @@ body {
 .comprar:hover {
   background: rgb(224, 75, 169);
   cursor: pointer;
+}
+
+#barra{
+    background-color: black;
+    width: 35%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carga{
+    background-color: blueviolet;
+    height: 5px;
+    width: 0%;
+    display: block;
+    transition-property: width;
+    transition-duration: 5000ms;
 }
