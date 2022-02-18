@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-size: 22px;
   align-items: center;
+  font-family: 'Baloo 2', cursive;
 }
 
 #button {
@@ -14,23 +15,35 @@ body {
   text-align: center;
   padding-left: 6%;
   padding-right: 6%;
+  font-family: 'Baloo 2', cursive;
+  border-radius: 2px;
+  box-shadow: 5px 9px 12px -2px rgba(0, 0, 0, 0.40);
+  
+
 }
 
 #button:hover {
-  background-color: rgb(163, 29, 114);
+  background-color: rgb(192, 39, 136);
   cursor: pointer;
+
 }
 
 #button:active {
-  background-color: rgb(224, 75, 169);
+  background-color: rgb(251, 141, 211);
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 9px 12px -100px rgb(0, 0, 0);
 }
 
 .comprar {
   border-style: none;
-  background: rgb(163, 29, 114);
+  background-color: rgb(163, 29, 114);
   color: white;
   margin-left: 5px;
   font-size: 1em;
+  font-family: 'Baloo 2', cursive;
+  box-shadow: 5px 9px 12px -2px rgba(0, 0, 0, 0.603);
+  transition-property: background-color;
+  transition-duration: 500ms;
 }
 .comprar:hover {
   background: rgb(224, 75, 169);
@@ -51,5 +64,15 @@ body {
     width: 0%;
     display: block;
     transition-property: width;
-    transition-duration: 5000ms;
+    transition-duration: 10000ms;
+}
+
+a{
+  color: aliceblue;
+  transition-property: font-size;
+  transition-duration: 500ms;
+}
+a:hover{
+  color: blueviolet;
+  font-size: 25px;
 }
